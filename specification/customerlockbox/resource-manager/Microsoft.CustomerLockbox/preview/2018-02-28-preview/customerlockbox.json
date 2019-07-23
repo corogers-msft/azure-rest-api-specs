@@ -29,7 +29,7 @@
       "get": {
         "tags": ["Requests"],
         "description": "Get Customer Lockbox request",
-        "operationId": "Requests_Get",
+        "operationId": "Get_Request",
         "parameters": [
           {
             "name": "subscriptionId",
@@ -73,7 +73,7 @@
       "get": {
         "tags": ["Requests"],
         "description": "Get Customer Lockbox request",
-        "operationId": "Requests_Get",
+        "operationId": "Get_RequestByResourceGroup",
         "parameters": [
           {
             "name": "subscriptionId",
@@ -124,7 +124,7 @@
       "post": {
         "tags": ["Requests"],
         "description": "Update Customer Lockbox request approval status API",
-        "operationId": "Requests_UpdateApproval",
+        "operationId": "Post_RequestUpdateApproval",
         "parameters": [
           {
             "name": "subscriptionId",
